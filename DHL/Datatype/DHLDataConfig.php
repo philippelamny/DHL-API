@@ -273,7 +273,7 @@ class DHLDataConfig
      * @return Array
      */
     static public function getPostCodeFormatByCountryCode($iso_code_country) {
-        if (!in_array($iso_code_country, self::AR_POST_CODE_FORMAT)) return null;
+        if (!key_exists($iso_code_country, self::AR_POST_CODE_FORMAT)) return null;
 
         return self::AR_POST_CODE_FORMAT[$iso_code_country];
     }
