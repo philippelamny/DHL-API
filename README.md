@@ -1,8 +1,10 @@
     
 ## Authors & contact
 
-
-Al-Fallouji Bashar 
+Philippe Lam
+    - philippe.lam.ny@gmail.com	
+	
+From Al-Fallouji Bashar 
     - bashar@alfallouji.com
 
     
@@ -10,7 +12,7 @@ Al-Fallouji Bashar
 
 
 Latest version is available on github at :
-    - http://github.com/alfallouji/DHL-API/
+    - http://github.com/philippelamny/DHL-API
 
 
 ## License
@@ -47,7 +49,7 @@ You can use composer to use this library.
 ```php
 {
     "require": {
-		"alfallouji/dhl_api": "*"
+		"philippelamny/DHL-API": "*"
     }
 }
 ```
